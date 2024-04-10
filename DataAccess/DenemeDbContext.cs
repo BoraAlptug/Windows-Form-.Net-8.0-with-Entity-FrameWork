@@ -26,7 +26,7 @@ namespace OdemePlanı_7.DataAccess.Context
         {
             optionsBuilder
                         .EnableSensitiveDataLogging()
-                        .UseSqlServer(@"Data Source=DESKTOP-NAKORGM\BORA; Initial Catalog=Deneme; User ID=sa; pwd=C2b@admin**; TrustServerCertificate=True");
+                        .UseSqlServer(@"*****");
 
             base.OnConfiguring(optionsBuilder);
         }
